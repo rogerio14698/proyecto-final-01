@@ -1,0 +1,115 @@
+body {
+  -webkit-font-smoothing: antialiased;
+}
+
+.top-nav {
+  overflow: hidden;
+  background-color: grey;
+}
+
+.top-nav a {
+  float: left;
+  color: rgb(206, 206, 206);
+  text-align: center center;
+  padding: 20px 15px;
+  text-decoration: none;
+}
+
+.top-nav a:hover {
+  opacity: 80%;
+}
+
+.top-nav a.active {
+  background-color: whitesmoke;
+  color: white;
+}
+
+.buscador-google {
+  float: right;
+  text-align: center center;
+  padding: 20px 15px;
+  text-decoration: none;
+  color: rgb(206, 206, 206);
+}
+
+
+.grid-principal001 {
+  display: grid;
+  grid-template-columns: 200px 1fr 150px;
+  background-color: grey;
+  gap: 10px;
+  padding: 10px;
+
+}
+
+.grid-principal001>div {
+  background-color: rgb(255, 255, 255, 0.5);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+.grid-central001 {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+  padding: 5px;
+}
+
+.grid-central001>div {
+  padding: 20px 0;
+}
+
+.menu-lateral {
+  list-style: none;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+.menu-lateral li {
+  border: 2px solid;
+  padding: 5px;
+  margin: 2px;
+  text-align: justify;
+  font-size: 18px;
+  border-radius: 10px;
+}
+
+.menu-lateral li:hover {
+  background-color: green;
+}
+
+.titulo-html-001 {
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+  width: 100%;
+}
+
+.titulo-html-001 p {
+  text-align: justify;
+  margin-left: 100px;
+}
+
+.lista-que-es-html001 {
+  font-size: 17px;
+  text-align: justify;
+  text-decoration: none;
+  margin-right: 9px;
+}
+
+.lista-que-es-html001 ul {
+  list-style: none;
+}
+
+.span-0001 {
+  color: blue;
+}
+
+.img-estructura-001 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  margin-left: 250px;
+}
