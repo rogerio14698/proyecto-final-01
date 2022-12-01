@@ -1,6 +1,29 @@
 body {
+    background-color: rgb(211, 210, 210);
+}
+
+.top-nav {
+    overflow: hidden;
     background-color: grey;
 }
+
+.top-nav a {
+    float: left;
+    color: rgb(206, 206, 206);
+    text-align: center center;
+    padding: 20px 15px;
+    text-decoration: none;
+}
+
+.top-nav a:hover {
+    opacity: 80%;
+}
+
+.top-nav a.active {
+    background-color: whitesmoke;
+    color: white;
+}
+
 
 .grid-container {
     display: grid;
