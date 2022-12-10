@@ -18,6 +18,40 @@
             text-align: center;
             float: center;
         }
+
+        body {
+            -webkit-font-smoothing: antialiased;
+        }
+
+        .top-nav {
+            overflow: hidden;
+            background-color: grey;
+        }
+
+        .top-nav a {
+            float: left;
+            color: rgb(206, 206, 206);
+            text-align: center center;
+            padding: 20px 15px;
+            text-decoration: none;
+        }
+
+        .top-nav a:hover {
+            opacity: 80%;
+        }
+
+        .top-nav a.active {
+            background-color: whitesmoke;
+            color: white;
+        }
+
+        .buscador-google {
+            float: right;
+            text-align: center center;
+            padding: 20px 15px;
+            text-decoration: none;
+            color: rgb(206, 206, 206);
+        }
     </style>
 </head>
 
@@ -25,7 +59,19 @@
 
     <div id="mostrar">
     </div>
+    <div class="top-nav">
+        <a href="../PAGINA-PRINCIPAL-INICIO/index.html">Inicio</a>
+        <a href="#">Noticias</a>
+        <a href="../FORUM/login.html">Forum</a>
+        <a href="../CONTACTO/index.html">Contacto</a>
+        <div class="buscador-google">
+            <label for="gsearch">Google:<label>
+                    <input type="search" id="gsearch" name="gsearch">
+                    <input type="submit">
+        </div>
+    </div>
     <div class="mensaje"><img src="../Carpeta-imagenes/gif-foro-en-mantenimiento.gif">
+
         <h1>Fuera de servicio</h1>
         <p>Por motivos tecnicos el forum no funciona, estamos trabajando en ello, volveremos cuanto antes!!</p>
         <h3>GRACIAS!!</h3>
