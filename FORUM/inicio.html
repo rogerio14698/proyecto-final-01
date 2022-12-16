@@ -6,53 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>iNICIO</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: Arial, Helvetica, sans-serif;
-        }
+    <link rel="stylesheet" href="style-inicio.css">
 
-        .mensaje {
-            text-align: center;
-            float: center;
-        }
-
-        body {
-            -webkit-font-smoothing: antialiased;
-        }
-
-        .top-nav {
-            overflow: hidden;
-            background-color: grey;
-        }
-
-        .top-nav a {
-            float: left;
-            color: rgb(206, 206, 206);
-            text-align: center center;
-            padding: 20px 15px;
-            text-decoration: none;
-        }
-
-        .top-nav a:hover {
-            opacity: 80%;
-        }
-
-        .top-nav a.active {
-            background-color: whitesmoke;
-            color: white;
-        }
-
-        .buscador-google {
-            float: right;
-            text-align: center center;
-            padding: 20px 15px;
-            text-decoration: none;
-            color: rgb(206, 206, 206);
-        }
-    </style>
 </head>
 
 <body>
@@ -60,16 +15,162 @@
     <div id="mostrar">
     </div>
     <div class="top-nav">
-        <a href="../PAGINA-PRINCIPAL-INICIO/index.html">Inicio</a>
+        <a href="../index.html">Inicio</a>
         <a href="#">Noticias</a>
         <a href="../FORUM/login.html">Forum</a>
         <a href="../CONTACTO/index.html">Contacto</a>
+        <img src="../Carpeta-imagenes/logo-eoi.png">
         <div class="buscador-google">
             <label for="gsearch">Google:<label>
                     <input type="search" id="gsearch" name="gsearch">
                     <input type="submit">
         </div>
     </div>
+    <div class="tarjet-central">
+        <div class="tabla-comentarios">
+
+            <style type="text/css">
+                .tftable {
+                    font-size: 12px;
+                    color: #333333;
+                    width: 60%;
+                    border-width: 1px;
+                    border-color: #729ea5;
+                    border-collapse: collapse;
+                    margin-top: 10px;
+                }
+
+                .tftable th {
+                    font-size: 12px;
+                    background-color: #acc8cc;
+                    border-width: 1px;
+                    padding: 8px;
+                    border-style: solid;
+                    border-color: #729ea5;
+                    text-align: left;
+                }
+
+                .tftable tr {
+                    background-color: #ffffff;
+                }
+
+                .tftable td {
+                    font-size: 12px;
+                    border-width: 1px;
+                    padding: 8px;
+                    border-style: solid;
+                    border-color: #729ea5;
+                }
+
+                .tftable tr:hover {
+                    background-color: #ffff99;
+                }
+
+                .tftable img {
+                    width: 30px;
+                    float: right;
+                    margin-right: 20px;
+                }
+
+                .button {
+                    text-decoration: none;
+
+
+                    text-align: center;
+                    padding: 10px 15px;
+                    border: none;
+                    border-radius: 50px;
+                    font: 12px Arial, Helvetica, sans-serif;
+                    font-weight: bold;
+                    color: #f7f7f7;
+                    background-color: #3BA4C7;
+                    background-image: -moz-linear-gradient(top, #3BA4C7 0%, #1982A5 100%);
+                    background-image: -webkit-linear-gradient(top, #3BA4C7 0%, #1982A5 100%);
+                    background-image: -o-linear-gradient(top, #3BA4C7 0%, #1982A5 100%);
+                    background-image: -ms-linear-gradient(top, #3BA4C7 0%, #1982A5 100%);
+                    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#1982A5', endColorstr='#1982A5', GradientType=0);
+                    background-image: linear-gradient(top, #3BA4C7 0%, #1982A5 100%);
+                    -webkit-box-shadow: -2px 0px -17px #bababa, inset 0px 0px -20px #ffffff;
+                    -moz-box-shadow: -2px 0px -17px #bababa, inset 0px 0px -20px #ffffff;
+                    box-shadow: -2px 0px -17px #bababa, inset 0px 0px -20px #ffffff;
+                    opacity: 0.95;
+                    -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=95);
+                    filter: alpha(opacity=95);
+                    text-shadow: 7px 9px 3px #bababa;
+                    filter: dropshadow(color=#bababa, offx=7, offy=9);
+                }
+
+                .añadir-comentario {
+                    margin: 10px;
+                }
+            </style>
+
+            <div class="añadir-comentario">
+                <button onlclick="addRow()" type="button" class="button-comentario">+Comentario&nbsp;➤</button>
+                <a href="#" class="button">+Ayuda&nbsp;➤</a>
+                <a href="#" class="button">+Categoria&nbsp;➤</a>
+            </div>
+
+
+            <table class="tftable" border="1">
+                <tr>
+                    <th>Usuario</th>
+                    <th>Categoria</th>
+                    <th>Comentario</th>
+                    <th>Ayuda</th>
+                    <th>Like</th>
+                </tr>
+                <tr>
+                    <td>Pepe </td>
+                    <td>HTML CODE </td>
+                    <td>Hola, soy pepe y tenngo este codigo de html que tengo una duda...</td>
+                    <td><a href="#"><img src="../Carpeta-imagenes/ayuda.png"></a>
+                    </td>
+                    <td>
+                        <a href="#"><img src="../Carpeta-imagenes/corazon.png"></a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Pepe </td>
+                    <td>HTML CODE </td>
+                    <td>Hola, soy pepe y tenngo este codigo de html que tengo una duda...</td>
+                    <td><a href="#"><img src="../Carpeta-imagenes/ayuda.png"></a>
+                    </td>
+                    <td>
+                        <a href="#"><img src="../Carpeta-imagenes/corazon.png"></a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Pepe </td>
+                    <td>HTML CODE </td>
+                    <td>Hola, soy pepe y tenngo este codigo de html que tengo una duda...</td>
+                    <td><a href="#"><img src="../Carpeta-imagenes/ayuda.png"></a>
+                    </td>
+                    <td>
+                        <a href="#"><img src="../Carpeta-imagenes/corazon.png"></a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Pepe </td>
+                    <td>HTML CODE </td>
+                    <td>Hola, soy pepe y tenngo este codigo de html que tengo una duda...</td>
+                    <td><a href="#"><img src="../Carpeta-imagenes/ayuda.png"></a>
+                    </td>
+                    <td>
+                        <a href="#"><img src="../Carpeta-imagenes/corazon.png"></a>
+                    </td>
+                </tr>
+
+
+
+
+            </table>
+
+        </div>
+    </div>
+
+
+
     <div class="mensaje"><img src="../Carpeta-imagenes/gif-foro-en-mantenimiento.gif">
 
         <h1>Fuera de servicio</h1>

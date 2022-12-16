@@ -5,6 +5,7 @@ body {
 .top-nav {
   overflow: hidden;
   background-color: grey;
+  height: 80px;
 }
 
 .top-nav a {

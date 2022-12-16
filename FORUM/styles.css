@@ -1,12 +1,6 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
 body {
-    background-color: rgb(211, 210, 210);
+    background: rgb(255, 154, 0);
+    background: linear-gradient(145deg, rgba(255, 154, 0, 0.7483368347338936) 23%, rgba(240, 46, 46, 0.48503151260504207) 78%);
 }
 
 .top-nav {
@@ -18,7 +12,7 @@ body {
     float: left;
     color: rgb(206, 206, 206);
     text-align: center center;
-    padding: 20px 15px;
+    padding: 40px 10px;
     text-decoration: none;
 }
 
@@ -31,6 +25,26 @@ body {
     color: white;
 }
 
+.top-nav img {
+    padding: 5px;
+    width: 700px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.buscador-google {
+    float: right;
+    padding: 40px 2px;
+    text-decoration: none;
+    color: rgb(206, 206, 206);
+}
+
+.tarjeta-central {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
 
 .grid-container {
     display: grid;
