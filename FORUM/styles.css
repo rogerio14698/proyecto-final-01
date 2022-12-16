@@ -1,0 +1,69 @@
+body {
+    background: rgb(255, 154, 0);
+    background: linear-gradient(145deg, rgba(255, 154, 0, 0.7483368347338936) 23%, rgba(240, 46, 46, 0.48503151260504207) 78%);
+}
+
+.top-nav {
+    overflow: hidden;
+    background-color: grey;
+}
+
+.top-nav a {
+    float: left;
+    color: rgb(206, 206, 206);
+    text-align: center center;
+    padding: 40px 10px;
+    text-decoration: none;
+}
+
+.top-nav a:hover {
+    opacity: 80%;
+}
+
+.top-nav a.active {
+    background-color: whitesmoke;
+    color: white;
+}
+
+.top-nav img {
+    padding: 5px;
+    width: 700px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.buscador-google {
+    float: right;
+    padding: 40px 2px;
+    text-decoration: none;
+    color: rgb(206, 206, 206);
+}
+
+.tarjeta-central {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 500PX;
+    grid-template-areas: "a b a";
+    gap: 10px;
+    background-color: rgb(255, 255, 255, 0.5);
+    padding: 10px;
+    width: 500px;
+    align-items: start;
+}
+
+.grid-container>div {
+    background-color: rgb(255, 255, 255, 0.5);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+}
+
+.grid-container {
+    grid-area: b;
+}

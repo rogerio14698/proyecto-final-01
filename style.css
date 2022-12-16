@@ -1,15 +1,7 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
 body {
   font-family: 'Roboto', sans-serif;
   max-width: 100%;
   -webkit-font-smoothing: antialiased;
-  width: 1366px;
   background: rgb(233, 134, 177);
   background: linear-gradient(90deg, rgba(233, 134, 177, 1) 17%, rgba(165, 197, 235, 1) 85%);
 }
@@ -17,13 +9,14 @@ body {
 .top-nav {
   overflow: hidden;
   background-color: grey;
+  height: 80px;
 }
 
 .top-nav a {
   float: left;
   color: rgb(206, 206, 206);
   text-align: center center;
-  padding: 20px 15px;
+  padding: 30px 10px;
   text-decoration: none;
 }
 
@@ -36,10 +29,17 @@ body {
   color: white;
 }
 
+.top-nav img {
+  padding: 5px;
+  width: 680px;
+  margin-top: 5px;
+  margin-left: 30px;
+}
+
 .buscador-google {
   float: right;
   text-align: center center;
-  padding: 20px 15px;
+  padding: 30px 20px;
   text-decoration: none;
   color: rgb(206, 206, 206);
 }
@@ -148,5 +148,5 @@ h2 {
 }
 
 .menu-lateral li:hover {
-  background-color: green;
+  opacity: 80%;
 }

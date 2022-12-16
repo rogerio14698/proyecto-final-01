@@ -5,6 +5,7 @@ body {
 .top-nav {
   overflow: hidden;
   background-color: grey;
+  height: 80px;
 }
 
 .top-nav a {
@@ -31,7 +32,6 @@ body {
   text-decoration: none;
   color: rgb(206, 206, 206);
 }
-
 
 .grid-principal001 {
   display: grid;
