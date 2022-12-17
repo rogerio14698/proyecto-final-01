@@ -1,0 +1,127 @@
+
+        body {
+            background-color: rgb(226, 83, 202);
+            text-align: center;
+            -webkit-font-smoothing: antialiased;
+        }
+
+
+        *{
+            margin: 0;
+            padding: 0;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+
+        a{
+            text-decoration: none;
+
+        }
+        ul{
+            list-style: none;
+        }
+        
+        
+        .top-nav {
+            overflow: hidden;
+            background-color:gray;
+        }
+        
+        .top-nav a {
+            float: left;
+            color: rgb(206, 206, 206);
+            text-align: center center;
+            padding: 20px 15px;
+            text-decoration: none;
+        }
+        
+        .top-nav a:hover {
+            opacity: 80%;
+        }
+        
+        .top-nav a.active {
+            background-color: whitesmoke;
+            color: white;
+        }
+        
+        .buscador-google {
+            float: right;
+            text-align: center center;
+            padding: 20px 15px;
+            text-decoration: none;
+            color: rgb(206, 206, 206);
+        }
+        .grid-principal001 {
+            display: grid;
+            grid-template-columns: 200px 1fr 150px;
+            background-color: rgba(116, 12, 202, 0.836);
+            gap: 10px;
+            padding: 10px;
+            text-align: justify;
+            word-wrap: break-word;
+        
+        }
+        
+        .grid-principal001>div {
+            background-color: rgb(255, 255, 255, 0.5);
+            text-align: justify;
+            padding: 20px 0;
+            font-size: 30px;
+            word-wrap: break-word;
+        }
+        
+        .grid-central001 {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 10px;
+            padding: 5px;
+            word-wrap: break-word;
+        }
+        
+        .grid-central001>div {
+            padding: 20px 0;
+            font-size: 25px;
+            background-color: beige;
+            text-align: justify;
+            word-wrap: break-word;
+
+        }
+        
+        .menu-lateral {
+            list-style: none;
+            text-decoration: none;
+            font-size: 25px;
+    
+        }
+        
+        .menu-lateral li {
+            border: 2px ;
+            padding: 5px;
+            margin: 2px;
+            text-align: justify;
+            font-size: 18px;
+            border-radius: 10px;
+            color: black;
+        }
+        
+        .menu-lateral li:hover {
+            background-color: rgb(218, 190, 204);
+        }
+        
+        .titulo-JAVASCRIP-001 {
+            font-size: 30px;
+            text-align: center;
+            text-decoration: none;
+            width: 100%;
+        }
+        
+        .titulo-JAVASCRIP-001 p {
+            text-align: justify;
+            margin-left: 100px;
+        }
+        
+        
+        
+      
+    
