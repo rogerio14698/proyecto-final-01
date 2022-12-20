@@ -5,7 +5,7 @@ async function sendData() {
     try {
         const formData = new FormData()
         const queryString = new URLSearchParams(formData).toString()
-        const response = await fetch('http://localhost:1337/api/users/me', {
+        const response = await fetch('https://proyecto-final-eoi-dhr.onrender.com/api/users/me', {
             method: "GET",
             headers: {
                 "Authorization": "Bearer " + HeadToken,

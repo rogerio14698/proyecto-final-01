@@ -5,7 +5,7 @@ var requestOptions = {
   redirect: 'follow'
 };
 
-fetch("http://localhost:1337/api/categorias", requestOptions)
+fetch("https://proyecto-final-eoi-dhr.onrender.com/api/categorias", requestOptions)
   .then(response => response.text())
   .then(result => {
     let data = JSON.parse(result)

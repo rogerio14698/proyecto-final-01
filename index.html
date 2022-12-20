@@ -16,67 +16,100 @@
     rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <title>Thor S2</title>
+  <link rel="shortcut icon" href="/Carpeta-imagenes/logo-web-01.png">
 
 </head>
 
 <body>
 
   <div class="top-nav">
-    <a href="index.html">Inicio</a>
-    <a href="#">Noticias</a>
-    <a href="FORUM/login.html">Forum</a>
-    <a href="CONTACTO/contacto.html">Contacto</a>
-    <img src="Carpeta-imagenes/logo-eoi.png">
+    <div class="btn-nav"><a href="#">Inicio</a></div>
+    <!--<div class="btn-nav"><a href="#">Noticias</a></div> -->
+    <div class="btn-nav"><a href="../FORUM/login.html">Forum</a></div>
+    <div class="btn-nav"><a href="../CONTACTO/contacto.html">Contacto</a></div>
     <div class="buscador-google">
       <label for="gsearch">Google:<label>
-          <input type="search" id="gsearch" name="gsearch">
-          <input type="submit">
+          <form method=GET action="http://www.google.com/search">
+            <input typeE=text name=q size=31 maxlength=255 value="">
+            <input type=hidden name=hl value=es>
+            <input type=submit name=btnG value="Go!">
+          </form>
     </div>
   </div>
   <div class="grid-container">
     <div class="item1">
-      <h3>LEARN</h3>
+      <h3>Main</h3>
       <div class="menu-lateral">
-        <li><a href="WEB-HTML-OO1/aprende-html.html" target="_blank">HTML</a></li>
-        <li><a href="#" target="_blank">CSS</a></li>
-        <li><a href="" target="_blank">JAVA SCRIPT</a></li>
-        <li><a href="https://www.w3schools.com/html/" target="_blank">W3SCHOOLS</a></li>
-        <li><a href="#">OTROS</a></li>
-        <li><a href="#">HOLA MUNDO</a></li>
+        <div class="jello-vertical">
+          <li><a href="wEB-HTML-OO1/aprende-html.html" target="_blank">HTML</a></li>
+        </div>
+        <div class="jello-vertical">
+          <li><a href="WEB-CSS-001/index.html" target="_blank">CSS</a></li>
+        </div>
+        <div class="jello-vertical">
+          <li><a href="WEB-JAVASCRIPT/js_introduccion.html" target="_blank">JAVA SCRIPT</a></li>
+        </div>
+        <div class="jello-vertical">
+          <li><a href="https://www.w3schools.com/" target="_blank">W3SCHOOLS</a></li>
+        </div>
+        <div class="jello-vertical">
+          <li><a href="#">OTROS</a></li>
+        </div>
+        <div class="jello-vertical">
+          <li><a href="#">HOLA MUNDO</a></li>
+        </div>
       </div>
     </div>
     <div class="item2">
       <div class="texto-destacado001">
-        <a href="WEB-HTML-OO1/aprende-html.html" target="_blank" class="tarjetas">
-          <h2> Introduccion al lenguaje de html</h2>
-          <img src="Carpeta-imagenes/html.jpg">
-          <p>Aprende a usar html de manera muy sencilla</p>
-        </a>
+        <div class="ajuste-texto">
+          <a href="../WEB-HTML-OO1/aprende-html.html" target="_blank" class="tarjetas">
+            <h2>Introduccion, lenguaje html</h2>
+            <img src="Carpeta-imagenes/html-recorte.png">
+            <p>Aprende a usar html de manera muy sencilla</p>
+          </a>
+        </div>
 
       </div>
     </div>
     <div class="item3">
-      <h2>Introduccion al lenguaje CSS </h2>
-      <p>Aprende a usar CSS para dar forma a tu codigo de manera fácil</p>
+      <div class="ajuste-texto">
+        <a href="/WEB-CSS-001/index.html">
+          <h2>Introduccion, lenguaje CSS </h2>
+          <img src="/Carpeta-imagenes/css-main-logo-01.png">
+          <p>Aprende a usar CSS para dar forma a tu codigo de manera fácil</p>
+        </a>
+      </div>
     </div>
     <div class="item4">
-      <h2>Introduccion al lenguaje de JavaScript</h2>
-      <p>Aprende a usar JavaScript de manera fácil y rapida</p>
+      <div class="ajuste-texto">
+        <a href="/WEB-JAVASCRIPT/js_introduccion.html">
+          <h2>Introduccion, lenguaje de JavaScript</h2>
+          <img src="/Carpeta-imagenes/js-logo-main.jpg">
+          <p>Aprende a usar JavaScript de manera fácil y rapida</p>
+        </a>
+      </div>
     </div>
     <div class="item5">
       <h1>AQUI PODEMOS PONER PUBLICIDAD <br><br>monetizacion de la pagina</h1>
-
+      <img src="/Carpeta-imagenes/emoji-recortado.png">
+      <img src="/Carpeta-imagenes/pizza.png" style="border-radius:50px;">
     </div>
     <div class="item6">
       <h2>Juega y repasa de manera muy didacta</h2>
-      <a href="https://cssgridgarden.com/#es">Grid Garden</a>
+      <a href="https://cssgridgarden.com/#es">Grid Garden</a> y
       <a href="https://flexboxfroggy.com/#es">Flexbox Froggy</a>
-      <p>Supera los niveles con lo aprendido!!</p>
-      <a href="https://cssgridgarden.com/#es">Grid Garden</a>
-      <a href="https://flexboxfroggy.com/#es">Flexbox Froggy</a>
+      <img src="/Carpeta-imagenes/fantasma.gif">
     </div>
-    <div class="item7">7</div>
-    <div class="item8">8</div>
+    <div class="item7">
+      <h1>Añade contenido a tu pagina web</h1>
+      <p>¿Como puedo añadir animaciones, transiciones, el buscador de google y mucho mas a mi pagina web?</p>
+      <p>Esto lo podras ver haciendo click aqui.</p>
+    </div>
+    <div class="item8">
+      <h1>Esto es el footer de la pagina</h1>
+      <p>Aqui podemos poner temas de cookies y privacidad de datos.</p>
+    </div>
   </div>
 
 
@@ -91,7 +124,6 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
     integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
     crossorigin="anonymous"></script>
-
 </body>
 
 </html>
