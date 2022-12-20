@@ -1,0 +1,51 @@
+.mensaje {
+    text-align: center;
+    float: center;
+}
+
+.mensaje img {
+    padding: 10px;
+    border-radius: 50px;
+}
+
+body {
+    -webkit-font-smoothing: antialiased;
+    background: rgb(255, 154, 0);
+    background: linear-gradient(145deg, rgba(255, 154, 0, 0.7483368347338936) 23%, rgba(240, 46, 46, 0.48503151260504207) 78%);
+}
+
+.top-nav {
+    overflow: hidden;
+    background-color: grey;
+}
+
+.top-nav a {
+    float: left;
+    color: rgb(206, 206, 206);
+    text-align: center center;
+    padding: 20px 15px;
+    text-decoration: none;
+}
+
+.top-nav a:hover {
+    opacity: 80%;
+}
+
+.top-nav a.active {
+    background-color: whitesmoke;
+    color: white;
+}
+
+.top-nav img {
+    padding: 5px;
+    width: 680px;
+    margin-top: 5px;
+}
+
+.buscador-google {
+    float: right;
+    text-align: center center;
+    padding: 20px 20px;
+    text-decoration: none;
+    color: rgb(206, 206, 206);
+}
