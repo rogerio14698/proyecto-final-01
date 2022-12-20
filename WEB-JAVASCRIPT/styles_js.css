@@ -1,0 +1,130 @@
+footer {
+    background-color: #777;
+    padding: 20px;
+    text-align: center;
+    color: white;
+     }
+        body {
+            font-family: 'Roboto', sans-serif;
+            max-width: 100%;
+            -webkit-font-smoothing: antialiased;
+            background: rgb(233, 134, 177);
+            background: linear-gradient(90deg, rgba(233, 134, 177, 1) 17%, rgba(165, 197, 235, 1) 85%);
+
+    
+        }
+
+        *{
+            margin: 0;
+            padding: 0;
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+
+        .top-nav {
+            overflow: hidden;
+            background-color:gray;
+        }
+        
+        .top-nav a {
+            float: left;
+            color: rgb(206, 206, 206);
+            text-align: center center;
+            padding: 20px 15px;
+            text-decoration: none;
+        }
+        
+        .top-nav a:hover {
+            opacity: 80%;
+        }
+      
+        
+        .buscador-google {
+            float: right;
+            text-align: center center;
+            padding: 20px 15px;
+            text-decoration: none;
+            color: rgb(206, 206, 206);
+        }
+
+        a{
+            text-decoration: none;
+
+        }
+        ul{
+            list-style: none;
+        }
+      
+        .menu-lateral {
+            list-style: none;
+            text-decoration: none;
+            font-size: 25px;
+          }
+          
+          .menu-lateral a {
+            text-decoration: none;
+          }
+          
+          .menu-lateral li {
+            border: 2px ;
+            padding: 5px;
+            margin: 2px;
+            text-align: justify;
+            font-size: 20px;
+            border-radius: 10px;
+          }
+          
+          .menu-lateral li:hover {
+            opacity: 80%;
+          }
+        
+        .titulo-JAVASCRIP-001 {
+
+            font-size: 60px;
+            text-align: center;
+            text-decoration: none;
+            width: 100%;
+            background-color:gray;
+    
+        }
+    
+        .grid-principal001 {
+            display: grid;
+            grid-template-columns: 200px 1fr 150px;
+            background-color: grey;
+            gap: 10px;
+            padding: 10px;
+        
+        }
+        
+        .grid-principal001>div {
+            background-color: rgb(255, 255, 255, 0.5);
+            text-align: center;
+            padding: 20px 0;
+            font-size: 30px;
+        }
+        
+        .grid-central-001 {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 10px;
+            padding: 5px;
+        }
+        
+        .grid-central-001>div {
+            padding: 20px 0;
+        }
+        
+
+      .item5 {
+        border-radius: 10px;
+      }
+      
+      .item5 h1 {
+        font-size: 20px;
+      }
+      
+    
+    
+      
+      
